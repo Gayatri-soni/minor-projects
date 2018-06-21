@@ -40,7 +40,7 @@ def malenam():                               #function defined for inputing name
 				print("Agh! you seem ineligible..complete 20 springs first:)")
 		else:
 			print("Sorry!enter your age again")
-			age()
+			agemale()
 	else:
 		print("kindly enter your accurate name please..")       #incase incorrect input func called again
 		malenam()
