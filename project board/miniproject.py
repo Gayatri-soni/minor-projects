@@ -30,7 +30,7 @@ def malenam():                               #function defined for inputing name
 	print("Enter your good name :)")
 	name=input("->")
 	if  name.isalpha():                       #entered name is correct then 
-		print("Sir! " , name ," hope you are doing well..Go for Acadview to have wings!!")
+		print(name,"Sir!hope you are doing well..Go for Acadview to have wings!!")
 		print("Enter your age!")            
 		age=input("->")
 		if len(age)>1 and age.isdigit():                          
@@ -50,7 +50,7 @@ def femalenam():                         #for female name input
 	print("Enter your good name :)")
 	name=input("->")
 	if  name.isalpha():
-		print("Mam!hope you are doing well..Go for Acadview to have wings!!")	
+		print(name,"Mam!hope you are doing well..Go for Acadview to have wings!!")	
 		print("Enter your age!")
 		age=input("->")
 		if len(age)>1 and age.isdigit():
@@ -85,7 +85,7 @@ if gender== "m" or gender== "M":             #gender is checked if male then thi
 	print("Enter your good name :)")
 	name=input("->")
 	if  name.isalpha():
-		print("Sir!hope you are doing well..Go for Acadview to have wings!!")
+		print(name,"Sir!hope you are doing well..Go for Acadview to have wings!!")
 		print("Enter your age!")
 		age=input("->")
 		if len(age)>1 and age.isdigit():
@@ -111,7 +111,7 @@ elif gender== "f" or gender== "F":               #if female is on board
 	print("Enter your good name :)")
 	name=input("->")
 	if  name.isalpha():
-		print("Mam!hope you are doing well..Go for Acadview to have wings!!")	
+		print(name,"Mam!hope you are doing well..Go for Acadview to have wings!!")	
 		print("Enter your age!")
 		age=input("->")
 		if len(age)>1 and age.isdigit():
