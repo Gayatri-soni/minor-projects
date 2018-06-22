@@ -31,9 +31,11 @@ class rhom(Shape):
 length=int(input("enter length:"))
 height=int(input("enter height:"))
 ang1=int(input("enter angle 1:"))
-ang2=int(input("enter angle 2:"))
+ang2= 180-ang1
+print("ang2=",ang2)
 ang3=int(input("enter angle 3:"))
-ang4=int(input("enter angle 4:"))
+ang4=180-ang3
+print("ang4=",ang4)
 print("")
 print("")
 print("(ang1,ang3),(ang2,ang4) are pairs of opposite angles")
@@ -42,7 +44,7 @@ a=Para(length,height,ang1,ang2,ang3,ang4)
 b=Rect(length,height,ang1,ang2,ang3,ang4)
 c=rhom(length,height,ang1,ang2,ang3,ang4)
 
-if ang1==ang3 and ang2==ang4:
+if ang1==ang3 and ang2==ang4 
 	a.area()
 	print("")
 	a.pararesult()
