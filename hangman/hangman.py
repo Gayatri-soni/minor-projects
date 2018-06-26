@@ -1,5 +1,6 @@
 import datetime
 import time
+import random
 def menu():
 	print("HANGMAN-The word guessing game:)-designed and developed by Gayatri(would be DECIDER!)")
 	print("")
@@ -69,7 +70,8 @@ def movhang():                               #this function includes actual game
 
 	#here we set the 
 	list = ["raja","darpan","bazigar","judva","neerja"]
-	word=list[0]
+	word=random.choice(list)
+	
 	
 	#creates an variable with an empty value
 	guesses = ''
@@ -148,7 +150,7 @@ def plhang():                               #this function includes actual game 
 
 	#here we set the 
 	list = ["kullumanali","haridwar","nainital","maclodganj","niagrafalls"]
-	word=list[0]
+	word=random.choice(list)
 	
 	#creates an variable with an empty value
 	guesses = ''
@@ -227,7 +229,7 @@ def sphang():                               #this function includes actual game 
 
 	#here we set the 
 	list = ["krishna","ramayan","vishnu","bhagvatgita","mahabharat"]
-	word=list[0]
+	word=random.choice(list)
 	
 	#creates an variable with an empty value
 	guesses = ''
@@ -308,7 +310,7 @@ def cohang():                               #this function includes actual game 
 
 	#here we set the 
 	list = ["america","india","england","russia","turkey"]
-	word=list[0]
+	word=random.choice(list)
 	
 	#creates an variable with an empty value
 	guesses = ''
