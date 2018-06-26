@@ -110,8 +110,12 @@ def div():
 	a=input("enter the first number=")
 	b=input("enter the second number=")
 	if a.isdigit() and b.isdigit():
-		division=int(a)/int(b)                  #division
-		print("result=",division)
+		try:
+			division=int(a)/int(b)			#division
+		except Exception as e:
+			print(e)
+		else:
+			print("result=",division)
 	else:
 		print("input again..")
 		div()
@@ -146,8 +150,12 @@ def flrdiv():
 	a=input("enter the first number=")
 	b=input("enter the second number=")
 	if a.isdigit() and b.isdigit():
-		division=int(a)/int(b)
-		print("Floor Division result=",math.floor(division))     #with floor func of math module floor value of division is cal
+		try:
+			floor_division=int(a)//int(b)			#division
+		except Exception as e:
+			print(e)
+		else:
+			print("Floor Division result=",floor_division)    #with floor func of math module floor value of division is cal
 	else:
 		print("input again..")
 		flrdiv()
@@ -164,8 +172,12 @@ def ceildiv():
 	a=input("enter the first number=")
 	b=input("enter the second number=")
 	if a.isdigit() and b.isdigit():
-		division=int(a)/int(b)
-		print("ceil Division result=",math.ceil(division))       #with ceil func of math module ceil value of division is cal
+		try:
+			division=int(a)/int(b)			#division
+		except Exception as e:
+			print(e)
+		else:
+			print("ceil Division result=",math.ceil(division))       #with ceil func of math module ceil value of division is cal
 	else:
 		print("input again..")
 		ceildiv()
