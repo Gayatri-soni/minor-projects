@@ -14,26 +14,26 @@ class Shape:
 		
 class Para(Shape):
 	def pararesult(self):
-		print("area of real parallelogram=",self.result,"sq. units")
-		print("parallelogram has equal opposite angles.")
+		print("area of parallelogram=",self.result,"sq. units")
+		print("parallelogram has equal and opposite sides.")
 		
 class Rect(Shape):
 	def rectresult(self):
-		print("area of parallelogram which is actually rectangle:",self.result,"sq. units")
+		print("area of parallelogram which is actually a rectangle:",self.result,"sq. units")
 		print("all angles of rectangle are 90 each.")
 		
 class rhom(Shape):
 	def rhomresult(self):
 		print("area of rhombus is:",self.result,"sq. units")
-		print("only opposite sides of rhombus are equal.And if you have opposite angles equal it becomes a square.")
+		print("all the sides of rhombus are equal.And if the adjacent angles are equal to 90 it becomes a square.")
 		
 		
-length=int(input("enter length:"))
-height=int(input("enter height:"))
-ang1=int(input("enter angle 1:"))
+length=int(input("enter the length:"))
+height=int(input("enter the height:"))
+ang1=int(input("enter the angle 1:"))
 ang2= 180-ang1
 print("ang2=",ang2)
-ang3=int(input("enter angle 3:"))
+ang3=int(input("enter the angle 3:"))
 ang4=180-ang3
 print("ang4=",ang4)
 print("")
