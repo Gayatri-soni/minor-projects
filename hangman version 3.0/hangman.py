@@ -146,10 +146,10 @@ def movhang():                               #this function includes actual game
 #2
 def plhang():                               #this function includes actual game to be played
 	print ("Start guessing...")
-	time.sleep(0.5)
+	time.sleep(0.6)
 
 	#here we set the 
-	list = ["kullumanali","haridwar","nainital","maclodganj","niagrafalls"]
+	list = ["kullumanali","haridwar","nainital","maclodganj","niagrafalls","shimla"]
 	word=random.choice(list)
 	
 	#creates an variable with an empty value
@@ -157,7 +157,7 @@ def plhang():                               #this function includes actual game 
 
 	#determine the number of turns
 	turns = 10
-
+B
 	# Create a while loop
 
 	#check if the turns are more than zero
