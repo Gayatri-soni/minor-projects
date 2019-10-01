@@ -5,10 +5,10 @@ def menu():                                    #menu is displayed to have a choi
 	print("")
 	print("<------------MENU------------->")
 	print("")
-	print("1.Addition")
-	print("2.Subtraction")
-	print("3.Multiplication")
-	print("4.Division")
+	print("1.Add")
+	print("2.Subtract")
+	print("3.Multiply")
+	print("4.Divide")
 	print("5.Raise to power")
 	print("6.Floor division")
 	print("7.Ceil division")
@@ -59,9 +59,9 @@ def add():
 		sum=int(a)+int(b)                    #sum is calculated
 		print("result=",sum)                  #sum is displayed
 	else:
-		print("input again..")                #wrong input 
+		print("enter the input again..")                #wrong input 
 		add()
-	print("do you want to add again?")          #user is asked to perform same task again 
+	print("do you want to contnue addition")          #user is asked to perform same task again 
 	
 	p=input("if yes then press Y/y else press any key!")       #on yes add() is called again
 	if p=="Y" or p=="y":
@@ -77,9 +77,9 @@ def sub():
 		diff=int(a)-int(b)            #subtraction
 		print("result=",diff)
 	else:
-		print("input again..")
+		print("enter the input again..")
 		sub()
-	print("do you want to subtract again?")
+	print("do you want to perform subtract again?")
 	
 	p=input("if yes then press Y/y else press any key!")
 	if p=="Y" or p=="y":
@@ -97,7 +97,7 @@ def mul():
 	else:
 		print("input again..")
 		mul()
-	print("do you want to multiply again?")
+	print("do you want to perform multiplication again?")
 	
 	p=input("if yes then press Y/y else press any key!")
 	if p=="Y" or p=="y":
