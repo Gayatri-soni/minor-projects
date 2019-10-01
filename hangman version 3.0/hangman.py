@@ -4,14 +4,14 @@ import random
 def menu():
 	print("HANGMAN-The word guessing game:)-designed and developed by Gayatri(would be DECIDER!)")
 	print("")
-	print("-----")
-	print("|   |")
-	print("|   0")
-	print("| /-+-\ ") 
-	print("|   |") 
-	print("|   |") 
-	print("|  | |") 
-	print("|  | |") 
+	print("------")
+	print("|    |")
+	print("|    0")
+	print("|  /-+-\ ") 
+	print("|    |") 
+	print("|    |") 
+	print("|   | |") 
+	print("|   | |") 
 	print("|")
 	print("--------")
 	print("")
@@ -21,10 +21,10 @@ def menu():
 		print(x)
 		time.sleep(1)
 	print("Enter your choice !")
-	print("<-------MENU------>")
-	print("1.Movie ")
-	print("2.Place")
-	print("3.Spritual")
+	print("<-------MENU------->")
+	print("1.Movies ")
+	print("2.Places")
+	print("3.Sprituals")
 	print("4.Country")
 	print("5.Exit")
 	x=input("choice->")
@@ -52,7 +52,7 @@ def menu():
 		menu()
 
 def inp():
-	print("you wanna try again ?enter y or Y  and to exit press any key..")      #asking player to play again.
+	print("DO you wanna try again ?enter y or Y  and to exit press any key..")      #asking player to play again.
 	x=input()
 	if x=="y" or x=="Y":
 		menu()		#if condition satisfied then name is asked again to start new game..
